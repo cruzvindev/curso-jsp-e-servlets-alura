@@ -14,7 +14,7 @@ public class NovaEmpresaServlet extends HttpServlet{
 
 	
 	@Override
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		System.out.println("Cadastrando nova empresa");
 		String nomeEmpresa = request.getParameter("nome");
 		Empresa empresa = new Empresa();
@@ -25,10 +25,7 @@ public class NovaEmpresaServlet extends HttpServlet{
 		
 		PrintWriter out = response.getWriter();
 		
-		//chamar o JSP
-		var rd = request.getRequestDispatcher("/novaEmpresaCriada.jsp");
-		request.setAttribute("empresa", empresa.getNome());
-		rd.forward(request, response);
+		out.println("<html><body>Empresa " + nomeEmpresa + " cadastrada com sucesso ! </body></html>");
 	}
 	
 }

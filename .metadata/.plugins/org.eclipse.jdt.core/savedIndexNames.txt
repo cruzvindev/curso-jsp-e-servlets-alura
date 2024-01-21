@@ -1,6 +1,5 @@
 INDEX VERSION 1.134+C:\ws-eclipse-jsp-e-servlet-alura\.metadata\.plugins\org.eclipse.jdt.core
 3200110690.index
-2870919431.index
 3230763368.index
 1484841854.index
 2695835125.index
