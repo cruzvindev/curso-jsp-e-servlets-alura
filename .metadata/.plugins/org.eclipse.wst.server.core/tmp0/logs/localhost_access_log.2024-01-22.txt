@@ -48,3 +48,10 @@
 0:0:0:0:0:0:0:1 - - [22/Jan/2024:18:09:21 -0300] "GET /gerenciador/listaEmpresas HTTP/1.1" 200 370
 127.0.0.1 - - [22/Jan/2024:18:10:14 -0300] "GET / HTTP/1.1" 404 764
 0:0:0:0:0:0:0:1 - - [22/Jan/2024:18:12:01 -0300] "GET /gerenciador/listaEmpresas HTTP/1.1" 200 271
+127.0.0.1 - - [22/Jan/2024:18:27:04 -0300] "GET / HTTP/1.1" 404 764
+0:0:0:0:0:0:0:1 - - [22/Jan/2024:18:27:13 -0300] "GET /gerenciador/formNovaEmpresa.jsp HTTP/1.1" 200 370
+0:0:0:0:0:0:0:1 - - [22/Jan/2024:18:27:51 -0300] "POST /gerenciador/novaEmpresa HTTP/1.1" 200 102
+0:0:0:0:0:0:0:1 - - [22/Jan/2024:18:27:56 -0300] "GET /gerenciador/listaEmpresas HTTP/1.1" 200 309
+127.0.0.1 - - [22/Jan/2024:18:36:36 -0300] "GET / HTTP/1.1" 404 764
+0:0:0:0:0:0:0:1 - - [22/Jan/2024:18:36:41 -0300] "GET /gerenciador/formNovaEmpresa.jsp HTTP/1.1" 200 370
+0:0:0:0:0:0:0:1 - - [22/Jan/2024:18:36:48 -0300] "POST /gerenciador/novaEmpresa HTTP/1.1" 200 359
